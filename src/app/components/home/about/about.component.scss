@@ -3,27 +3,27 @@
 .about{
 
     .about-description{
-        margin-top: 30px;
+        // margin-top: 30px;
         max-width: 480px;
     }
 
     .about-img-container{
-        width: 324px;
+        // width: 324px;
         margin: auto;
 
-        &:after{
-            content: '';
-            border: 2px solid $Green;
-            z-index: 0;
-            display: block;
-            position: relative;
-            width: 300px;
-            height: 300px;
-            border-radius: 3px;
-            bottom: 290px;
-            left: 23px;
+        // &:after{
+        //     content: '';
+        //     border: 2px solid $Green;
+        //     z-index: 0;
+        //     display: block;
+        //     position: relative;
+        //     width: 300px;
+        //     height: 300px;
+        //     border-radius: 3px;
+        //     bottom: 290px;
+        //     left: 23px;
 
-        }
+        // }
 
         img{
             z-index: 2;

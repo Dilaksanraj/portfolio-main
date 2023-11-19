@@ -11,71 +11,49 @@ export class ProyectsComponent implements OnInit {
   Projects = [
     {
       imgs:[
-        '../../../../assets/images/medmatch/screenshot.png',
-        '../../../../assets/images/medmatch/screenshot (1).png',
-        '../../../../assets/images/medmatch/screenshot (2).png',
-        '../../../../assets/images/medmatch/screenshot (3).png'],
-      Title:'Med Match',
-      Description:'The purpose of this project is to enhance the safety of prescribing drugs and to address the challenges related to prescribing errors which can have significant damage the patient’s health, the project ultimate goal is to contribute to the overall improvement of medication safety in the healthcare department.',
-      Technologies:['Angular','SASS','Angular-Material' , 'RxJS', 'Node.js'],
-      ghLink:'https://github.com/Dilaksanraj/medmatch',
-      demoLink:'https://medmatchh.netlify.app/'
+        '../../../../assets/images/e-commerce/Screenshot.png',
+        '../../../../assets/images/e-commerce/Screenshot1.png',
+        '../../../../assets/images/e-commerce/Screenshot2.png',
+        '../../../../assets/images/e-commerce/Screenshot3.png'],
+      Title:'E-commerce',
+      Description:`N. S. Ratnam Brother’s in Vavuniya district. which does not have any web-based system to do their
+                    functional activities. Organization use manual file system to record their records and maintain their records. 
+                    All orders, it could be sales order or purchase orders are records using manual file system. 
+                    Organization uses MS Excel to records their accounts. 
+                    Some of the accounts are recorded in the papers. This is the situation of the N. S. Ratnam Brother’s.`,
+      Technologies:['Laravel','css','boostrap' , 'php', 'html'],
+      ghLink:'https://github.com/Dilaksanraj',
+      demoLink:'sadfdsa'
     },
 
     {
       imgs:[
-        '../../../../assets/images/todo-app/1.PNG',
-        '../../../../assets/images/todo-app/2.PNG',
-        '../../../../assets/images/todo-app/3.PNG',
+        '../../../../assets/images/student-management/1.png',
+        '../../../../assets/images/student-management/2.png',
+        '../../../../assets/images/student-management/3.png',
       ],
-      Title:'Dynamic Todo App',
-      Description:'Users can add, edit, delete, and prioritize tasks. Each task typically contains a title, description, due date, and status. The app allows users to reorder tasks by dragging and dropping them into different categories or positions, making it easy to organize and prioritize tasks.',
-      Technologies:['Angular','SCSS','Angular-Material' , 'RxJS'],
-      ghLink:'https://github.com/Dilaksanraj/dynamic-todo-app',
-      demoLink:'https://dynamic-todo-app.netlify.app/'
+      Title:'Action Learning(Student management)',
+      Description:`It is very tedious to manage and control student's final year projects using manual or classical processes. 
+      The main goal of this project is to build an integrated framework to handle all project activities.
+      Project management system is a system for the management, tracking and supervision of students' final year projects.
+      It is a web-based platform or framework that is useful to students, project managers and project managers.`,
+      Technologies:['Laravel','Angular','SCSS','Angular-Material' , 'RxJS', 'PostgreSql', 'NG-ZORRO'],
+      ghLink:'https://github.com/Dilaksanraj/action-learning',
+      demoLink:'ddsf'
     },
-    {
-      imgs:[
-      
-        '../../../../assets/images/recipe-book/screenshot (1).png',
-        '../../../../assets/images/recipe-book/screenshot (2).png',
-        '../../../../assets/images/recipe-book/screenshot (3).png',
-      ],
-      Title:'Recipe Book',
-      Description:'Users can add new recipes to their collection and categorize them based on different types of cuisines or meal types. Each recipe includes a comprehensive list of ingredients required for the dish, making it convenient for users to shop for the necessary items.',
-      Technologies:['Angular','Css','Angular-Material' , 'RxJS','firebase'],
-      ghLink:'https://github.com/Dilaksanraj/recipe-book',
-      demoLink:'https://recipe-book-theta-blue.vercel.app'
-    },
-    {
-      imgs:[
-        '../../../../assets/images/design-show/1.png',
-        '../../../../assets/images/design-show/2.png',
-        '../../../../assets/images/design-show/4.PNG',
-      ],
-      Title:'Design Show',
-      Description:'Design Show provides a user-friendly interface that enables artists and designers to upload high-quality images and multimedia content, along with detailed project descriptions. This allows viewers to explore the creative process and context behind each artwork.',
-      Technologies:['Html','SCSS','JavaScript' , 'Jquery', 'animation-libraries'],
-      ghLink:'',
-      demoLink:'https://design-show.netlify.app/'
-    },
-
-  
     {
       imgs:[
       
-        '../../../../assets/images/typing-speed/1.png',
-   
+        '../../../../assets/images//madhuram/1.png',
+        '../../../../assets/images//madhuram/2.png',
+        '../../../../assets/images//madhuram/3.png',
       ],
-      Title:'Typing Speed Test',
-      Description:` The application measures the number of words or characters typed per minute (words per minute - WPM or characters per minute - CPM) to determine the user's typing speed. In addition to speed, the test evaluates typing accuracy by calculating the number of errors made during the typing exercise.`,
-      Technologies:['Html','CSS','JavaScript' , 'Jquery'],
-      ghLink:'https://github.com/Dilaksanraj/typing-speed-test',
-      demoLink:'https://typingspeedgamee.netlify.app/'
+      Title:'Madhuram Event',
+      Description:`Madhuram Event is a Event planer in Paris France, I have developed a simple website for that organization`,
+      Technologies:['Angular','Css','Angular-Material' , 'RxJS','AWS','Tailwindcss'],
+      ghLink:'https://github.com/Dilaksanraj/madhuram-event',
+      demoLink:'https://github.com/Dilaksanraj/madhuram-event'
     },
-
-    
-
 
   ]
   customOptions: OwlOptions = {

@@ -9,32 +9,54 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class JobsComponent implements OnInit {
   Experiences: any[] = [
     {
-      Tab: 'iSchoolTech',
-      Title: 'Instructor',
-      Date: 'Sep 2023 – present',
+      Tab: 'Proitzen',
+      Title: 'Software Engineer',
+      Date: 'Dec 2018 – Aug 2021',
       Description: [
-        'instructor at iSchoolTech, teaching programming to students of various grades remotely',
-        'Skilled in delivering engaging lessons and encouraging hands-on learning, ensuring students grasp fundamental programming concepts with enthusiasm',
+        `Collaborating	with	a	team	of	developers	to	create	a	childcare	platform	using	PHP and	Angular.`,
+        `Implementing	 unit	 tests	 for	 all	 modules	 in	 the	 application	 stack	 to	 ensure	 code	
+        quality.`,
+        `Creating	RESTful	APIs	consumed	by	frontend	applications	written	in	Angular.`
         
       ]
     },
     {
-      Tab: 'Roots Solutions',
-      Title: 'Front-end developer',
-      Date: 'Jun 2021 - May 2022 (1 year)',
+      Tab: 'CFM - Capital Fund Management',
+      Title: 'Front-end developer (Angular)',
+      Date: 'Oct 2022 - Apr 2023 (6 month)',
       Description: [
-        'Dynamic Forms : The system is able to create forms and allows the user to control validation, input types, design without write code. ',
-        'Implementing continuous improvements, working on frontend',
-        'Functional programming in templates and plugins to add the necessary monitoring features.'
+        `Implemented	 complex	 asynchronous	 data	 flows	 using	 RxJS	 observables	 and	
+        operators	in	Angular	applications,	ensuring	efficient	handling	of	data	streams`,
+        `Designing	 user	 experience	 interface	 UI/UX	 strategy	 and	 UI	 requirements	 and	
+        converting	findings	into	UI	designs.`,
+        `Writing	 clean,	modular,	 and	maintainable	 code	 following	industry	 best	 practices	
+        and	coding	standards.`,
+        `Collaborating	 with	 backend	 developers	 to	 integrate	 frontend	 components	 with	
+        server-side	logic	and	APIs.`,
+        `Working	with REST/Web	APIs,	testing	them	using	Postman,	and	integrating	them	
+        with	Angular	$HTTP	service	calls	for	data	binding.`,
+        `Conducting	unit	testing	using	Jasmine/Karma.`,
+        `Documenting	 technical	 specifications,	 system	 architecture,	 and	 development	
+        processes	for	future	reference	and	knowledge	sharing`,
+        `Working	with	AG-Grid.`
       ]
     },
     {
-      Tab: 'Education',
-      Title: 'Software Engineer',
-      Date: '2019 — 2023',
+      Tab: 'Msc (Computer sceince)',
+      Title: 'Master of sceince (Msc Computer sceince)',
+      Date: '2021 — 2022',
       Description: [
-        'I graduated from the Faculty of Computers and Information, Kafr El-Sheikh University, Department of Software Engineering',
-        'the graduation project is a prescription detection system(Med Match), that automates the process of reading prescriptions either by patients or by pharmacists themselves, additionally users have the ability to order their drugs online through our application.'
+        'I graduated from the Faculty of Software Engineering at University of EPITA',
+        
+      ]
+    },
+    {
+      Tab: 'Bsc (Information technology)',
+      Title: 'Bacholer of sceince  (Bsc Information technology)',
+      Date: '2016 — 2019',
+      Description: [
+        'I graduated from the Faculty of Information technology at University of Sri Jayewardenepura',
+        
       ]
     }
   ];

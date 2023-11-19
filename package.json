@@ -1,5 +1,5 @@
 {
-  "name": "loay-portfolio",
+  "name": "dilaksan-portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href /loay/ && ngh --dir=dist/loay-portfolio "
+    "deploy": "ng build --prod --base-href /dilaksan/ && ngh --dir=dist/dilaksan-portfolio "
   },
   "private": true,
   "dependencies": {

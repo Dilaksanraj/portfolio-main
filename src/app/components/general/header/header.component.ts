@@ -36,7 +36,7 @@ export class HeaderComponent implements OnInit {
   pageYPosition: number;
   languageFormControl: FormControl= new FormControl();
   cvName: string = "lastCv.pdf";
-  ResumeName: string = "Loay-elden-gamal -resume.pdf";
+  ResumeName: string = "Dilaksanraj.pdf";
 
   constructor(
     private router: Router,

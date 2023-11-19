@@ -2,37 +2,33 @@
     <div [@bannerTrigger] class="container">
 
 
-                <div class="section-box-banner">
-                    <div class="content">
-                        <div>
-                            <h1>Hello! My name is</h1>
-                        </div>
-                        <div class='banner-title'>
-                            <h2 class="text-capitalize">Dilaksanraj Alexsandar.</h2>
-                            <h3 class="text-capitalize">full stack developer</h3>
-                        </div>
-                        <div class="row">
-                            <div class="col col-6">
-                                <div class='banner-description'>
-                                    <p  class="mt-4">I have  <span class="underline"> 3 years of experience </span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class="underline"> Angular, javascript ,typescript</span>  applying good practices and development standards.</p>
-                                </div>
-                            </div>
-                            <div class="col col-6">
-                                <!-- <div class='banner-description'>
-                                    <p  class="mt-4">I have  <span class="underline"> 3 years of experience </span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class="underline"> Angular, javascript ,typescript</span>  applying good practices and development standards.</p>
-                                </div> -->
-                                <img (click)='analyticsService.sendAnalyticEvent("click_image", "about", "image")'  width="300" height="300" src="assets/images/me/meinblue.JPG" alt="Git User">
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="div-btn-banner">
-                        <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="dilaksanraj@gmail.com" target="_black" class="main-btn text-capitalize">
-                            get in touch
-                        </a>
-                    </div>
+        <div class="section-box-banner">
+            <div class="content">
+                <div>
+                    <h1>Hello! My name is</h1>
                 </div>
-        
+                <div class='banner-title'>
+                    <h2 class="text-capitalize">Dilaksanraj Alexsandar.</h2>
+                    <h3 class="text-capitalize">full stack developer</h3>
+                </div>
+                <div class='banner-description'>
+                    <p class="mt-4 text-justify">
+                        I'am a passionate and driven <span class="underline">Full Stack Developer</span> with a solid
+                        foundation in Information Technology.
+                        I hold a Bachelor's degree in Information Technology from the University of Sri Jayewardenepura,
+                        where I honed my skills in a myriad of technologies such as <span class="underline"> PHP
+                            Laravel, Angular, AWS, HTML, CSS, and PostgreSQL.</span>
 
+                    </p>
+                    <!-- <p  class="mt-4">I have  <span cl  ass="underline"> 3 years of experience </span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class="underline"> Angular, javascript ,typescript</span>  applying good practices and development standards.</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="div-btn-banner">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")'
+                href="dilaksanraj@gmail.com" target="_black" class="main-btn text-capitalize">
+                get in touch
+            </a>
+        </div>
     </div>
 </section>
